@@ -1,3 +1,99 @@
-.index-title {
-  font-size: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+
+.portrait {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 128px;
+  text-align: right;
+}
+
+.bg-gray {
+  background: #efefef;
+}
+
+.py-48 {
+  padding: 48px 0;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.content {
+  font-size: 32px;
+  width: 50%;
+  margin-left: auto;
+}
+
+.experiences {
+  width: 50%;
+}
+
+h3 {
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: 3px solid #AE0000;
+  margin-bottom: 16px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+li a {
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+    color: #FF0000;
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-gray {
+  color: #949494;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
